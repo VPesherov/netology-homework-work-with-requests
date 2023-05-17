@@ -28,7 +28,7 @@ if __name__ == '__main__':
     file_name = 'push_me.txt'
     path_to_file = path.join('files', file_name)
 
-    token = 'y0_AgAAAABguimRAADLWwAAAADjXzD3wXKOVhBcRrO3aLzL_YM8HW7XDn0'
+    token = ''
 
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file, file_name)
